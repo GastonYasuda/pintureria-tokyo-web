@@ -2,6 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-f-center {
+    display: flex;
+    justify-content: center;
+}
+
+.d-f-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@import '../Components/Heading/heading.scss';
 @import '../Components/Main/main.scss';
+@import '../Components/Carrosell/carrosell.scss';
+@import '../Components/Funciones/funciones.scss';
+@import '../Components/Distribuidor/distribuidor.scss';

@@ -1,0 +1,30 @@
+.distribuidor {
+    margin-top: 170px;
+    width: 100%;
+    background-color: #F6515B;
+
+    &__container {
+
+        &-logoCertificado {
+            margin-top: 40px;
+
+            img {
+                width: 200px;
+            }
+        }
+
+
+        &-txt {
+            margin: 34px 0 -18px;
+
+            h2 {
+                color: #ffff;
+                font-size: 35px;
+            }
+        }
+
+        &-logoSherwin {
+            width: 550px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.funciones {
+    margin: 150px 0;
+
+    &__box {
+
+        img {
+            position: absolute;
+            width: 70px;
+            top: -40px;
+        }
+
+        &--txt {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        position: relative;
+        width: 40%;
+        margin: 70px auto;
+        padding: 15px;
+        border-radius: 15px;
+        background: #ffffff;
+        box-shadow: 5px 5px 20px #dbdbdb,
+        -5px -5px 20px #ffffff;
+    }
+}

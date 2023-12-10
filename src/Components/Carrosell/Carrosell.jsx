@@ -1,9 +1,25 @@
-import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 
-const Carrosell = () => {
+
+function Carrosell() {
     return (
-        <div>Carrosell</div>
-    )
+        <div className='carouselContainer'>
+            <Carousel>
+                <Carousel.Item interval={1500}>
+                    <img src="assets/carrosel/pared-interior1.png" alt="" text="First slide" />
+                    <Carousel.Caption>
+                        <h3>Pinta de Violeta</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={1500}>
+                    <img src="assets/carrosel/pared-interior2.png" alt="" text="Second slide" />
+                    <Carousel.Caption>
+                        <h3>Pinta de Gris</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </div>
+    );
 }
 
-export default Carrosell
+export default Carrosell;
