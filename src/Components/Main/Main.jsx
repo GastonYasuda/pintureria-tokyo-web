@@ -12,11 +12,11 @@ const Main = () => {
         <>
             <Heading />
             <Carrosell />
-            <Distribuidor />
-            <Footer />
             <Funciones />
-            <Marcas />
+            <Distribuidor />
             <MisDatos />
+            <Marcas />
+            <Footer />
         </>
     )
 }

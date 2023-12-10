@@ -8,7 +8,14 @@ const Heading = () => {
                 <img src="assets/logo.png" alt="" />
             </div>
 
-            <div>Menu</div>
+            <div>
+                <ul>
+                    <li>Distribudor</li>
+                    <li>Marca</li>
+                    <li>Asesoramiento</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
         </>
     )
 }
