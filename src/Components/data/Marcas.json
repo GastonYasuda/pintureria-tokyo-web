@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "nombre": "Brikol",
+        "logo": "./assets/marcas/brikol.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cetol",
+        "logo": "./assets/marcas/cetol.jpg"
+    }
+]

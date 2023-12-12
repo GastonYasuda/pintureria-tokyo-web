@@ -1,32 +1,42 @@
-//        border-radius: 15px;
-// background: #ffffff;
-// box-shadow: 5px 5px 20px #dbdbdb,
-// -5px -5px 20px #ffffff;
-
 .misDatos {
-    width: 100%;
-    margin: 70px 0;
+    width: 80%;
+    margin: 70px auto;
+    flex-wrap: wrap;
+    gap: 35px;
 
     &__datos {
+        min-width: 375px;
+        flex: 2;
+        gap: 35px;
 
-        &-animate {}
+        &-animate {
+            padding: 20px;
+        }
 
-        &-contacto {}
+        &-contacto {
+            padding: 20px;
+        }
     }
 
     &__mapa {
-        &-txt {}
+        min-width: 375px;
+        flex: 2;
 
-        &-mapa {}
+        &-contenedor {
+            height: 100%;
+            padding: 20px;
+
+            // &-txt {}
+
+            // &-mapa {}
+        }
     }
 }
 
 .misDatos__datos-animate,
 .misDatos__datos-contacto,
-.misDatos__mapa {
-    width: 100%;
+.misDatos__mapa-contenedor {
     position: relative;
-    margin: 50px 0;
     border-radius: 15px;
     background: #ffffff;
     box-shadow: 5px 5px 20px #dbdbdb,
@@ -34,6 +44,5 @@
 
     img {
         width: 130px;
-        position: absolute;
     }
 }

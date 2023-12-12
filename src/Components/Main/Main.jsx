@@ -4,8 +4,8 @@ import Carrosell from '../Carrosell/Carrosell'
 import Distribuidor from '../Distribuidor/Distribuidor'
 import Funciones from '../Funciones/Funciones'
 import Footer from '../Footer/Footer'
-import Marcas from '../Marcas/Marcas'
 import MisDatos from '../MisDatos/MisDatos'
+import Marcas from '../Marcas/Marcas'
 
 const Main = () => {
     return (
